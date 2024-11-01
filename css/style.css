@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-inline div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-inline div:last-child {
+    margin-right: 0;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
